@@ -1,8 +1,8 @@
 //code explain
 https://openenergymonitor.org/forum-archive/node/1968.html
 
-//�ٵ�1
+//สูตร1
 https://learn.openenergymonitor.org/electricity-monitoring/ctac/ct-and-ac-power-adaptor-installation-and-calibration-theory?redirected=true
 
-//�ٵ�2
+//สูตร2
 https://openenergymonitor.org/forum-archive/node/156.html

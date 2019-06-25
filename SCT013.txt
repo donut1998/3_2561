@@ -6,3 +6,5 @@ https://learn.openenergymonitor.org/electricity-monitoring/ctac/ct-and-ac-power-
 
 //สูตร2
 https://openenergymonitor.org/forum-archive/node/156.html
+
+

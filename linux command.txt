@@ -1,0 +1,3 @@
+//from https://askubuntu.com/questions/118749/package-system-is-broken-how-to-fix-it
+sudo apt-get -f install
+sudo apt-get clean

@@ -1,0 +1,3 @@
+//sleep mode
+https://www.arduinoall.com/article/79/nodemcu-esp8266-esp8285-arduino-50-esp8266-nodemcu-sleep-mode
+https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/

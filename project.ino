@@ -13,6 +13,7 @@ const char* mqtt_server = "163.50.57.110";
 WiFiClient espClient;
 PubSubClient client(espClient);
 
+//NTPserver
 const char* ntpServer = "";
 const long  gmtOffset_sec = 7 *60 *60;
 const int   daylightOffset_sec = 0; 
@@ -144,9 +145,9 @@ void setup() {
   pinMode(r, OUTPUT);
   pinMode(y, OUTPUT);
   pinMode(g, OUTPUT);
-  digitalWrite(r, 0);
-  digitalWrite(g, 0);
-  digitalWrite(y, 0);
+  digitalWrite(r, 1);
+  digitalWrite(g, 1);
+  digitalWrite(y, 1);
   
 //  pinMode(BUILTIN_LED, OUTPUT);     // Initialize the BUILTIN_LED pin as an output
   Serial.begin(115200);
@@ -167,24 +168,30 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(g, 1);
+  
   int button1 = digitalRead(sw1);
   int button2 = digitalRead(sw2);
   int button3 = digitalRead(sw3);
   
   if(button1 == 0){
-    digitalWrite(r, 1);
+    digitalWrite(r, 0);
+    delay(100);
     stateButton = 1;
   }
   if(button2 == 0){
-    digitalWrite(r, 1);
+    digitalWrite(r, 0);
+    delay(100);
     stateButton = 2;
   }
   if(button3 == 0){
-    digitalWrite(r, 1);
+    digitalWrite(r, 0);
+    delay(100);
     stateButton = 3;
   }
-  digitalWrite(r, 0);
+  digitalWrite(r, 1); //1 คือ ไฟปิด
+  if(stateButton == 1 || stateButton == 2){
+    digitalWrite(g, 0);  // 0 คือไฟเปิด
+  }
 
   //Serial.println("wifi status = " + (String)WiFi.status());
   if(WiFi.status() == 0 || WiFi.status() == 1 || WiFi.status() == 4 || WiFi.status() == 5 || WiFi.status() == 6 ){
@@ -202,7 +209,7 @@ void loop() {
     now[2] = millis();
     
     //LCD--show
-    if (now[0] - lastMsg[0] > 500) { //LCD changes data every 0.5 s
+    if (now[0] - lastMsg[0] > 500) { //mcu retrives sensor data 0.5s
             // DHT22
             float h = dht.readHumidity();
             float t = dht.readTemperature();

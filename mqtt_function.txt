@@ -1,0 +1,7 @@
+var val = msg.payload
+
+msg.payload = {
+    topic : msg.topic,
+    value : parseFloat(val)
+}
+return msg;

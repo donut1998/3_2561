@@ -6,3 +6,6 @@ https://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-
 https://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/
 //movidius
 https://www.bouvet.no/bouvet-deler/adding-ai-to-edge-devices-with-the-movidius-neural-compute-stick
+
+//detect คน
+https://circuitdigest.com/tutorial/real-life-object-detection-using-opencv-python-detecting-objects-in-live-video

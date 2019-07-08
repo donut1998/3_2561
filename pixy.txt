@@ -1,2 +1,4 @@
 //install
 https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:installing_pixymon_on_linux
+https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:building_libpixyusb_as_a_python_module_on_linux#install-dependencies-for-building-python-swig-module
+https://pixycam.com/downloads-pixy2/

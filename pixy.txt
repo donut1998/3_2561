@@ -1,0 +1,2 @@
+//install
+https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:installing_pixymon_on_linux

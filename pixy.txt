@@ -4,3 +4,6 @@ https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:building_libpixyusb_as_a_pytho
 https://pixycam.com/downloads-pixy2/
 //In arduino
 https://docs.pixycam.com/wiki/doku.php?id=wiki:v1:Hooking_up_Pixy_to_a_Microcontroller_-28like_an_arduino-29
+
+//Raspberry PI subcribe
+https://techtutorialsx.com/2017/04/23/python-subscribing-to-mqtt-topic/

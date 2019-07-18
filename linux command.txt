@@ -3,3 +3,5 @@ sudo apt-get -f install
 sudo apt-get clean
 //eth0
 https://opensource.cc.psu.ac.th/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2_eth0_%E0%B8%9A%E0%B8%99_ubuntu_16.04_server
+
+https://www.vultr.com/docs/how-to-configure-ufw-firewall-on-ubuntu-14-04
